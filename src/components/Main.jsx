@@ -45,6 +45,8 @@ export default function Main(){
             <div className="padding-input"><input type="tel" id="telefone" value={telefone} placeholder="Seu Telefone" onChange={(event)=> setTelefone(event.target.value)}/></div>
            <button type="button" onClick={salvar}>Enviar</button>
         </form>
+        { listaContatos.map((contato, index))=>
+        <div key={index}
             </div>
         </main>
         </div>
